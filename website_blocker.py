@@ -3,13 +3,11 @@ from datetime import datetime as dt
 
 
 hosts_path = "/etc/hosts"
-temp_hosts = "hosts"
 redirect = "127.0.0.1"
 website_list = ["www.twitter.com", "twitter.com", "www.instagram.com", "instagram.com"]
 
 while True:
-    if dt(dt.now().year, dt.now().month, dt.now().day, 12) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 20):
-        print("working hours..")
+    if dt(dt.now().year, dt.now().month, dt.now().day, 12) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 16):
         with open(hosts_path, "r+") as file:
             content = file.read()
             for website in website_list:
@@ -25,5 +23,4 @@ while True:
                 if not any(website in line for website in website_list):
                     file.write(line)
             file.truncate()
-        print("fun hours..")
     time.sleep(2)
