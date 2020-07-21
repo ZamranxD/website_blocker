@@ -10,7 +10,7 @@ A simple python tool to get rid of the distracting websites during your working 
 <li>Open your terminal and type <i>sudo crontab -e</i>. You might be prompted to select an editor if you're using cron for the first time. So just select any that you're comfortable with.</li>
 <li>Once you've opened cron with sudo privillages, add the following line at the end of the file.</li>
 <li><i><strong>@reboot python3 /home/user/Desktop/websiteBlocker/website_blocker.py</strong></i> Please note that the absolute path
-of your website_blocker.py file might be different so please change it accordingly</li>
+of your website_blocker.py file might be different so please change it accordingly.</li>
 <li>Once you're done, just save it and exit. And that's it. Done!</li>
 </ol>
 
