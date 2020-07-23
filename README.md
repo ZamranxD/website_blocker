@@ -17,6 +17,6 @@ of your website_blocker.py file might be different so please change it according
 <h3><i>For Windows</i></h3>
 <ol>
     <li>
-        Check out <a href="https://youtu.be/ucPgmZzoUJQ">this video</a> for the tutorial. 
+        Please refer to <a href="https://youtu.be/ucPgmZzoUJQ">this video</a> for the tutorial. 
     </li>
 </ol>
