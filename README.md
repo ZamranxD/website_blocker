@@ -1,5 +1,5 @@
 # website_blocker
-A simple python tool to get rid of the distracting websites during your working hours. Just execute this process in the background and forget about distractions!
+A simple python tool to get rid of the distracting websites during your work hours. Just execute this process in the background and forget about distractions!
 
 
 
